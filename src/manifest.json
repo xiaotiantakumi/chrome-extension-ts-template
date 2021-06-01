@@ -1,0 +1,52 @@
+{
+  "manifest_version": 2,
+  "name": "0 - webpack babel template",
+  "short_name": "webpack babel template",
+  "description": "webpack babel template",
+  "version": "0.0.1",
+  "author": "17num",
+
+  "icons": {
+    "16": "icons/16.png",
+    "32": "icons/32.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.google.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": []
+    }
+  ],
+
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+
+  "browser_action": {
+    "default_popup": "options.html",
+    "default_icon": {
+      "16": "icons/16.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "128": "icons/128.png"
+    }
+  },
+
+  "web_accessible_resources": [
+    "icons/*"
+  ],
+
+  "permissions": [
+    "tabs"
+  ]
+}
