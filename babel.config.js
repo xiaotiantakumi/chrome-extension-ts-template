@@ -12,7 +12,7 @@ module.exports = function (api) {
     }]];
 
   return {
-    presets,
+    // presets,
     sourceType: "unambiguous",
   };
 }
