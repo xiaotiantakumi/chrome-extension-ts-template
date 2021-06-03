@@ -1,4 +1,3 @@
-// import 'core-js';  // NOTE: babel で useBuiltIns: 'entry' にする場合に必要
 const moment = require('moment');
 import axios from 'axios';
 

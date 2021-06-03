@@ -36,14 +36,6 @@ module.exports = {
         exclude: /node_modules/
       },
       {
-        test: /\.js$/,
-        use: [
-          {
-            loader: 'babel-loader',
-          }
-        ],
-      },
-      {
         test: /\.s[ac]ss$/i,
         use: [
           // Creates `style` nodes from JS strings
