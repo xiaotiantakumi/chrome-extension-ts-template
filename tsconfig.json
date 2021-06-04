@@ -16,5 +16,5 @@
     "sourceMap": true,
   },
   "include": ["src"],
-  "exclude": ["build", "node_modules"]
+  "exclude": ["build", "node_modules","dist","**/*.spec.ts"]
 }

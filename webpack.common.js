@@ -51,4 +51,7 @@ module.exports = {
   watchOptions: {
     ignored: /node_modules/,
   },
+  resolve: {
+    extensions: [".js", ".ts"]
+  },
 };
