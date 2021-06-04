@@ -30,6 +30,6 @@ export class SampleClass extends SampleBase {
      * ThrowException
      */
     public ThrowException() {
-        let tmp = 5 / 0;
+        throw new Error("Errorだよ");        
     }
 }

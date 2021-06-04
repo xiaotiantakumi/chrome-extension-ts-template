@@ -6,7 +6,6 @@ const now = moment();
 (async () => {
   var cls = new SampleClass("TACOS");
   console.log(cls.GetValue());
-  cls.ThrowException();
   const res = await axios.get('https://www.google.com/search?q=test');
   console.log({
     from: 'content.ts',
