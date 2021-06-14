@@ -1,10 +1,10 @@
 {
   "manifest_version": 2,
-  "name": "0 - webpack babel template",
-  "short_name": "webpack babel template",
-  "description": "webpack babel template",
+  "name": "ts chrome extension template",
+  "short_name": "ts chrome extension template",
+  "description": "ts chrome extension template",
   "version": "0.0.1",
-  "author": "17num",
+  "author": "Takumi Oda",
 
   "icons": {
     "16": "icons/16.png",
